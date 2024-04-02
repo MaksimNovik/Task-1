@@ -12,11 +12,11 @@ public class Main {
         userService.saveUser("Мария"," Петрова",(byte)66);
         userService.saveUser("Петр"," Петров",(byte)57);
         userService.saveUser("Влад"," Владислав",(byte)52);
-        userService.saveUser("Елена","Смирнова",(byte)66);
+        userService.saveUser("Елена","Смирнова",(byte)68);
 
         userService.removeUserById(1);
         userService.getAllUsers();
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+//        userService.cleanUsersTable();
+//        userService.dropUsersTable();
     }
 }

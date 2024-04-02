@@ -18,7 +18,6 @@ public class UserDaoJDBCImpl implements UserDao {
         }
 
         public UserDaoJDBCImpl() {
-
         }
 
         public void createUsersTable() {
@@ -29,7 +28,6 @@ public class UserDaoJDBCImpl implements UserDao {
                 } catch (SQLException e) {
                         e.printStackTrace();
                 }
-
         }
 
         public void dropUsersTable() {
